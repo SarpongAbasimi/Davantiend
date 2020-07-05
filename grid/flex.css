@@ -1,0 +1,29 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.container{
+  background-color: gold;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 50vh;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 5px;
+  text-align: center;
+  line-height: 100px;
+  order: 1;
+  flex-grow: 0;
+}
+.grow {
+  flex-grow: 1;
+}
+
+#num9 {
+  flex-grow: 6;
+}
