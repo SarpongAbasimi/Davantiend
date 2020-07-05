@@ -19,6 +19,7 @@ body {
   line-height: 100px;
   order: 1;
   flex-grow: 0;
+  color: #ffffff;
 }
 .grow {
   flex-grow: 1;
